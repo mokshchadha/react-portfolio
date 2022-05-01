@@ -8,12 +8,18 @@ import {
 } from "react-icons/ai";
 import { RiServiceLine } from "react-icons/ri";
 
+const DEFAULT = "#";
+
 export const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
   const isActive = (l) => (activeNav === l ? "active" : "");
   return (
     <nav>
-      <a href="#" className={isActive("#")} onClick={() => setActiveNav("#")}>
+      <a
+        href={DEFAULT}
+        className={isActive("#")}
+        onClick={() => setActiveNav("#")}
+      >
         <AiOutlineHome />
       </a>
       <a
