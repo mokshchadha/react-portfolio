@@ -6,7 +6,7 @@ import {
   AiOutlineBook,
   AiOutlineContacts,
 } from "react-icons/ai";
-import { RiServiceLine } from "react-icons/ri";
+//import { RiServiceLine } from "react-icons/ri";
 
 const DEFAULT = "#";
 
@@ -36,13 +36,13 @@ export const Nav = () => {
       >
         <AiOutlineBook />
       </a>
-      <a
+      {/* <a
         href="#services"
         className={isActive("#services")}
         onClick={() => setActiveNav("#services")}
       >
         <RiServiceLine />
-      </a>
+      </a> */}
       <a
         href="#contact"
         className={isActive("#contact")}
