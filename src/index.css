@@ -60,6 +60,10 @@ h1 {
 
 section {
     margin-top: 8rem;
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
 }
 
 section>h2,
@@ -114,7 +118,26 @@ img {
     object-fit: cover;
 }
 
+.hidden {
+ opacity: 0;
+ filter: blur(5px);
+ transform:translateX(-100%);
+ transition:  all 1.5s;
+}
+
+.show {
+ opacity: 1;
+ filter: blur(0);
+ transform:translateX(0%);
+}
+
 /*MEDIA QUERIES*/
+
+@media(prefers-reduced-motion){
+    .hidden{
+        transition: none;
+    }
+}
 
 @media screen and (max-width: 1024px) {
     .container {

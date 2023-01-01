@@ -5,7 +5,7 @@ import Project from "./Project";
 
 export const Portfolio = () => {
   return (
-    <section id="portfolio">
+    <section id="portfolio" className="hidden">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 

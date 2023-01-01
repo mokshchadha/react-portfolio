@@ -8,7 +8,7 @@ import { AiFillProject } from "react-icons/ai";
 
 export const About = () => {
   return (
-    <section id="about">
+    <section id="about" className="hidden">
       <h5>Get To Know</h5>
       <h2>About Me</h2>
       <div className="conatiner about__container">
@@ -23,7 +23,7 @@ export const About = () => {
             <article className="about__card">
               <FaAward className="about__icons" />
               <h5>Experience</h5>
-              <small>2.5+ Years Working</small>
+              <small>3.5+ Years Working</small>
             </article>
             <article className="about__card">
               <MdCastForEducation className="about__icons" />

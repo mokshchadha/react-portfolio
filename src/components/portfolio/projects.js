@@ -3,8 +3,16 @@ import IMG2 from "../../assets/prod2.jpeg";
 import IMG3 from "../../assets/prod3.jpeg";
 import IMG4 from "../../assets/prod4.jpeg";
 import IMG0 from "../../assets/prod0.png";
+import IMG5 from "../../assets/p5.gif";
 
 const PROJECTS = [
+  {
+    key: 5,
+    title: "Game Of Life",
+    githubLink: "https://github.com/mokshchadha/game-of-life",
+    liveDemoLink: "https://moksh-game-of-life.netlify.app/",
+    imgSrc: IMG5,
+  },
   {
     key: 0,
     title: "Covid WB Resource Info",
