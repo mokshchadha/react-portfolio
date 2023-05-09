@@ -4,7 +4,7 @@ const Project = ({ title, githubLink, liveDemoLink, imgSrc }) => {
   return (
     <article className="portfolio__item">
       <div className="portfolio__item-image">
-        <img src={imgSrc} alt="" />
+        <img src={imgSrc} alt="" loading="lazy" />
       </div>
       <h3>{title}</h3>
       <div className="portfolio__item-cta">
