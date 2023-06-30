@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
-import { BsLinkedin, BsGithub, BsInstagram } from "react-icons/bs";
+import { BsLinkedin, BsGithub, BsStackOverflow } from "react-icons/bs";
 
 export const HeaderSocials = () => {
   return (
@@ -14,8 +14,8 @@ export const HeaderSocials = () => {
       <a href="https://github.com/mokshchadha" target={"_blank"}>
         <BsGithub />
       </a>
-      <a href="https://www.instagram.com/mokshrc/" target={"_blank"}>
-        <BsInstagram />
+      <a href="https://stackoverflow.com/users/21419280/moksh-chadha">
+        <BsStackOverflow />
       </a>
     </div>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import { FaLinkedinIn, FaInstagram, FaTwitterSquare } from "react-icons/fa";
+import { FaLinkedinIn, FaTwitterSquare, FaStackOverflow } from "react-icons/fa";
 
 const HOME = "#";
 export const Footer = () => {
@@ -33,8 +33,8 @@ export const Footer = () => {
         <a href="https://twitter.com/chadha_moksh">
           <FaTwitterSquare />
         </a>
-        <a href="https://www.instagram.com/mokshrc">
-          <FaInstagram />
+        <a href="https://stackoverflow.com/users/21419280/moksh-chadha">
+          <FaStackOverflow />
         </a>
       </div>
 

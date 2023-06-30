@@ -1,6 +1,12 @@
 import React from "react";
 
-const Project = ({ title, githubLink, liveDemoLink, imgSrc }) => {
+const Project = ({
+  title,
+  githubLink,
+  liveDemoLink,
+  imgSrc,
+  isDemoDisabled,
+}) => {
   return (
     <article className="portfolio__item">
       <div className="portfolio__item-image">
@@ -11,14 +17,18 @@ const Project = ({ title, githubLink, liveDemoLink, imgSrc }) => {
         <a href={githubLink} className="btn" target={"_blank"} rel="noreferrer">
           Github
         </a>
-        <a
-          href={liveDemoLink}
-          className="btn btn-primary"
-          target={"_blank"}
-          rel="noreferrer"
-        >
-          Live Demo
-        </a>
+        {isDemoDisabled ? (
+          ""
+        ) : (
+          <a
+            href={liveDemoLink}
+            className="btn btn-primary"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            Live Demo
+          </a>
+        )}
       </div>
     </article>
   );
