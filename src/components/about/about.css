@@ -1,3 +1,7 @@
+#about{
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
 .about__container {
     display: grid;
     grid-template-columns:  35% 50%;
@@ -87,6 +91,9 @@
  
  
  @media screen and (max-width:600px) {
+     #about{
+        padding:0rem
+     }
       .about__me {
           width: 65%;
           margin: 0 auto 3rem
