@@ -8,7 +8,7 @@ import HeaderSocials from "./HeaderSocials";
 export const Header = () => {
   return (
     <header>
-      <div className="container header__container">
+      <div className="container header__container" style={{ zIndex: 500 }}>
         <h5>Hello I am</h5>
         <h1>Moksh Rai Chadha</h1>
         <h5 className="text-light">Full Stack Developer</h5>
