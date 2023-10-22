@@ -8,7 +8,7 @@ Template ID:
 
 const TEMPLATE_ID = "template_lnbrefj";
 const SERVICE_ID = "service_vwhf1mf";
-const PUBLIC_KEY = "pIhJc_4D902OTMjzn";
+const PUBLIC_KEY = "Xsbv8CzeDvcb8o-B2";
 
 export const EmailForm = () => {
   const form = useRef();
@@ -24,7 +24,7 @@ export const EmailForm = () => {
         console.log(error.text);
       }
     );
-
+    alert("Your message was sent, successfully");
     e.target.reset();
   };
 
