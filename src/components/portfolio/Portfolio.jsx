@@ -252,7 +252,7 @@ const Portfolio = () => {
                 {item.subItems && (
                   <ul className="space-y-2 mt-2">
                     {item.subItems.map((subItem, subIndex) => (
-                      <li key={subIndex} className="group/item pl-2 border-l-2 ${borderColor}">
+                      <li key={subIndex} className={`group/item pl-2 border-l-2 ${borderColor}`}>
                         {typeof subItem === 'string' ? (
                           <p className="text-gray-600 text-xs">{subItem}</p>
                         ) : (
