@@ -31,7 +31,8 @@ const Portfolio = () => {
           title: "Video Summarizer",
           description:
             "Video content summarization using OpenAI Whisper for transcription and Gemini API for summary generation",
-          repo: "video-summarizer",
+          repo: "mokshchadha/gemini_summariser",
+          preview:"https://audiovideosummary.streamlit.app/"
         },
         {
           title: "Deterministic GenAI Output",
@@ -195,6 +196,7 @@ const Portfolio = () => {
         {
           title: "Guest Speaker - React Meetup Bangalore",
           description: "Topic: React Signals",
+          preview:"https://www.linkedin.com/feed/update/urn:li:activity:7262060314966323200/"
         },
         {
           title: "Technical Articles",
@@ -270,7 +272,7 @@ const Portfolio = () => {
                       )}
                       {item.preview && (
                         <a
-                          href={`https://${item.preview}`}
+                          href={`${item.preview}`}
                           className={`${linkColor} transform transition-all duration-200 hover:scale-110`}
                           target="_blank"
                           rel="noreferrer"
