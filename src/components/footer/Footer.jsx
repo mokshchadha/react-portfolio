@@ -5,7 +5,7 @@ import { FaLinkedinIn, FaTwitterSquare, FaStackOverflow } from "react-icons/fa";
 const HOME = "#";
 export const Footer = () => {
   return (
-    <footer>
+    <footer id="footer">
       <a href={HOME} className="footer__logo">
         Moksh
       </a>
@@ -15,9 +15,6 @@ export const Footer = () => {
         </li>
         <li>
           <a href={"#about"}>About</a>
-        </li>
-        <li>
-          <a href={"#experience"}>Experience</a>
         </li>
         <li>
           <a href={"#portfolio"}>Portfolio</a>

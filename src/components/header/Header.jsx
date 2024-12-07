@@ -8,7 +8,7 @@ export const Header = () => {
   return (
     <div className="container header__container" style={{ zIndex: 500 }}>
       <h5>Hello I am</h5>
-      <h1>Moksh Rai Chadha</h1>
+      <h1 className="text-2xl">Moksh Rai Chadha</h1>
       <h5 className="text-light">Full Stack Developer</h5>
       <CTA />
       <HeaderSocials />

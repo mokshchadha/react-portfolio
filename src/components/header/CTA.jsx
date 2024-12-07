@@ -11,7 +11,7 @@ const CTA = () => {
       >
         Download CV
       </a>
-      <a href="#contact" className="btn btn-primary">
+      <a href="https://www.linkedin.com/in/mokshchadha/" target="_blank" className="btn btn-primary">
         Let's Talk
       </a>
     </div>

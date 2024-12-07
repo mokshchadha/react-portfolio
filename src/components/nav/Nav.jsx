@@ -30,23 +30,16 @@ export const Nav = () => {
         <AiOutlineUser />
       </a>
       <a
-        href="#experience"
-        className={isActive("#experience")}
-        onClick={() => setActiveNav("#experience")}
+        href="#portfolio"
+        className={isActive("#portfolio")}
+        onClick={() => setActiveNav("#portfolio")}
       >
         <AiOutlineBook />
       </a>
-      {/* <a
-        href="#services"
-        className={isActive("#services")}
-        onClick={() => setActiveNav("#services")}
-      >
-        <RiServiceLine />
-      </a> */}
       <a
-        href="#contact"
-        className={isActive("#contact")}
-        onClick={() => setActiveNav("#contact")}
+        href="#footer"
+        className={isActive("#footer")}
+        onClick={() => setActiveNav("#footer")}
       >
         <AiOutlineContacts />
       </a>
