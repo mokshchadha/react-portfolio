@@ -1,14 +1,14 @@
 import React, { useRef } from "react";
-import emailjs from "emailjs-com";
+// import emailjs from "emailjs-com";
 
 /*
 My Default Template
 Template ID:
 */
 
-const TEMPLATE_ID = "template_lnbrefj";
-const SERVICE_ID = "service_vwhf1mf";
-const PUBLIC_KEY = "Xsbv8CzeDvcb8o-B2";
+// const TEMPLATE_ID = "template_lnbrefj";
+// const SERVICE_ID = "service_vwhf1mf";
+// const PUBLIC_KEY = "Xsbv8CzeDvcb8o-B2";
 
 export const EmailForm = () => {
   const form = useRef();
@@ -16,16 +16,16 @@ export const EmailForm = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY).then(
-      (result) => {
-        console.log(result.text);
-      },
-      (error) => {
-        console.log(error.text);
-      }
-    );
-    alert("Your message was sent, successfully");
-    e.target.reset();
+    // emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY).then(
+    //   (result) => {
+    //     console.log(result.text);
+    //   },
+    //   (error) => {
+    //     console.log(error.text);
+    //   }
+    // );
+    // alert("Your message was sent, successfully");
+    // e.target.reset();
   };
 
   return (

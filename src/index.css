@@ -10,18 +10,29 @@
 }
 
 :root {
+    /* Light theme colors (default) */
+    --color-bg: #f5f5f5;
+    --color-bg-variant: #e0e0e0;
+    --color-primary: #2196f3;
+    --color-primary-variant: rgba(33, 150, 243, 0.4);
+    --color-white: #333;
+    --color-light: rgba(51, 51, 51, 0.7);
+
+    /* Container widths and transitions */
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+    --transition: all 400ms ease;
+}
+
+/* Dark theme colors */
+:root.-dark {
     --color-bg: #1f1f38;
     --color-bg-variant: #2c2c6c;
     --color-primary: #4db5ff;
     --color-primary-variant: rgba(77, 181, 255, 0.4);
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.5);
-
-    --container-width-lg: 75%;
-    --container-width-md: 86%;
-    --container-width-sm: 90%;
-
-    --transition: all 400ms ease;
 }
 
 html {
@@ -119,22 +130,22 @@ img {
 }
 
 .hidden {
- opacity: 0;
- filter: blur(5px);
- transform:translateX(-100%);
- transition:  all 1.5s;
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1.5s;
 }
 
 .show {
- opacity: 1;
- filter: blur(0);
- transform:translateX(0%);
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0%);
 }
 
 /*MEDIA QUERIES*/
 
-@media(prefers-reduced-motion){
-    .hidden{
+@media(prefers-reduced-motion) {
+    .hidden {
         transition: none;
     }
 }
@@ -148,7 +159,6 @@ img {
         margin-top: 6rem;
     }
 }
-
 
 @media screen and (max-width:600px) {
     .container {

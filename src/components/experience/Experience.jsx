@@ -6,7 +6,7 @@ import { PROFICIENCY } from "./constants";
 
 export const Experience = () => {
   return (
-    <section id="experience" className="hidden">
+    <section id="experience">
       <h5>What Skills I have</h5>
       <h2>My Experience</h2>
 
