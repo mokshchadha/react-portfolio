@@ -45,33 +45,35 @@ const Portfolio = () => {
         {
           title: 'Block Em - Chrome Extension',
           description: 'Block unwanted sites during work/study with custom video/webpage redirects',
-          repo: 'block-em',
-          preview: 'Block Em'
+          repo: 'mokshchadha/blockEm',
+          preview: 'https://chrome.google.com/webstore/detail/blockem/gadendmijjdnlkeaoomkniibodipcdoa'
         },
         {
-          title: 'Maitry Yatra NGO Website',
+          title: 'Maitri Yatra NGO Website',
           description: 'Website for Himachal-based NGO built with Next.js',
-          repo: 'maitry-yatra'
+          repo: 'mokshchadha/raka_bui_ngo',
+          preview:'https://maitriyatra.netlify.app/'
         },
         {
           title: 'Angular SSR Grid',
           description: 'Angular table package with debounced API search for all columns',
-          repo: 'angular-ssr-grid'
+          repo: 'mokshchadha/ng-ssr-grid'
         },
         {
           title: 'Performance Monitor',
           description: 'Real-time multi-core CPU monitoring using Node.js, React, and Socket.io with sticky sessions',
-          repo: 'performance-monitor'
+          repo: 'mokshchadha/performance-monitor'
         },
         {
           title: 'Sorting Visualizer',
           description: 'React-based visualization tool for sorting algorithms',
-          repo: 'sorting-visualizer'
+          repo: 'mokshchadha/sorting-visualizer',
+           preview:'https://gallant-lovelace-64dc8c.netlify.app'
         },
         {
           title: 'Inverted Index',
           description: 'Cassandra table column indexing implementation',
-          repo: 'cassandra-inverted-index'
+          repo: 'mokshchadha/inverted_index'
         }
       ]
     },
@@ -123,22 +125,22 @@ const Portfolio = () => {
         {
           title: 'Weather App',
           description: 'Reactive UI application using Rust Dominator and Arc signals',
-          repo: 'rust-weather-app'
+          repo: 'mokshchadha/weather_app'
         },
         {
           title: 'Space Invaders',
           description: 'CLI-based Galaga-style game',
-          repo: 'rust-space-invaders'
+          repo: 'mokshchadha/space_invaders'
         },
         {
           title: 'IP Sniffer',
           description: 'Command-line IP sniffing tool',
-          repo: 'rust-ip-sniffer'
+          repo: 'mokshchadha/ip_sniffer'
         },
         {
           title: 'Dominator Components',
           description: 'UI component library using Dominator v2',
-          repo: 'rust-dominator-components'
+          repo: 'mokshchadha/dominator_rust'
         }
       ]
     },
