@@ -12,7 +12,7 @@ const About = () => {
               Passionate about all things tech, I'm a Full Stack Dev proficient
               in MERN/MEAN stacks and Flutter and{" "}
               <b className="blue_highlight">
-                <a href="https://www.coursera.org/account/accomplishments/professional-cert/RI04BT1RM8MH" target="_blank">
+                <a href="https://www.coursera.org/account/accomplishments/professional-cert/RI04BT1RM8MH"  rel="noopener noreferrer" target="_blank">
                   Certified IBM AI Engineer 
                 </a>{" "}
               </b>

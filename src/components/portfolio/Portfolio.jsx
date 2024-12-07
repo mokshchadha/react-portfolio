@@ -229,7 +229,7 @@ const Portfolio = () => {
                         href={`https://github.com/${item.repo}`}
                         className={`${linkColor} transform transition-all duration-200 hover:scale-110`}
                         target="_blank"
-                        rel="noopener noreferrer"
+                       rel="noreferrer"
                       >
                         <Github className="w-4 h-4" />
                       </a>
@@ -239,7 +239,7 @@ const Portfolio = () => {
                         href={`https://${item.preview}`}
                         className={`${linkColor} transform transition-all duration-200 hover:scale-110`}
                         target="_blank"
-                        rel="noopener noreferrer"
+                       rel="noreferrer"
                       >
                         <ExternalLink className="w-4 h-4" />
                       </a>
