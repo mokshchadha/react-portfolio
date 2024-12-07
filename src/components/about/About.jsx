@@ -74,7 +74,7 @@ const About = () => {
         {/* Experience Section */}
         <div className="flex-1 bg-white rounded-lg shadow-lg overflow-hidden">
           <div className="p-3">
-            <h2 className="text-2xl font-bold mb-4">Experience</h2>
+            <h2 className="text-2xl font-bold mb-4">Experience 5+years</h2>
             <div className="space-y-2">
               <div className="border-l-2 border-gray-200 pl-4">
                 <h3 className="font-semibold">Senior Subject Matter Expert</h3>
