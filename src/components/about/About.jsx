@@ -79,7 +79,7 @@ const About = () => {
               <div className="border-l-2 border-gray-200 pl-4">
                 <h3 className="font-semibold">Senior Subject Matter Expert</h3>
                 <p className=" text-sm text-gray-500">
-                  <i>Pippin Title • 2023 - Present</i>
+                   Pippin Title • 2023 - Present
                 </p>
                 <p className="mt-1 text-sm text-gray-600">
                   Joined as a Sr SME, Leading AI initiative to speed up
@@ -91,7 +91,7 @@ const About = () => {
               <div className="border-l-2 border-gray-200 pl-4">
                 <h3 className="font-semibold">Software Engineer 2</h3>
                 <p className="text-sm text-gray-500">
-                  <i>Source.one • 2019 - 2023</i>
+                 Source.one • 2019 - 2023
                 </p>
                 <p className="mt-1 text-sm  text-gray-600 mb-1">
                   Joined as an intern, now currently working as an SDE 2.
