@@ -97,20 +97,20 @@ const Portfolio = () => {
           title: "ArogyaGreen",
           description:
             "Pro bono initiative for Radha Swami Charitable Hospital - QR-based biowaste tracking using Flutter Web, Node.js, and MongoDB",
-          repo: "arogyagreen",
+          preview: "https://arogyagreen.netlify.app/",
+        },
+        {
+          title: "Google Docs Clone",
+          description:
+            "Real-time collaborative document editing with Flutter, Node.js, and Socket.io",
+          repo: "https://github.com/mokshchadha/docs-clone",
+          preview:"https://www.linkedin.com/feed/update/urn:li:activity:6995037982961352704/"
         },
         {
           title: "Serverpod Projects",
           description:
             "Full-stack Flutter solutions with Postgres and JSON RPC",
-          subItems: [
-            {
-              title: "Google Docs Clone",
-              description:
-                "Real-time collaborative document editing with Flutter, Node.js, and Socket.io",
-              repo: "flutter-google-docs",
-            },
-          ],
+           repo:'https://github.com/mokshchadha/serverpod_demo'
         },
         {
           title: "Mobile Apps",
@@ -118,12 +118,12 @@ const Portfolio = () => {
             {
               title: "Expense Tracker",
               description: "Flutter app with Riverpod state management",
-              repo: "flutter-expense-tracker",
+              repo: "https://github.com/mokshchadha/expense-tracker",
             },
             {
               title: "Grocery App",
               description: "MVVM architecture with Bloc state management",
-              repo: "flutter-grocery-app",
+              repo: "https://github.com/mokshchadha/grocery_bloc",
             },
           ],
         },
