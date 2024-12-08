@@ -13,19 +13,21 @@ const Portfolio = () => {
           title: "Text to SQL Generator",
           description:
             "Natural language to SQL query converter working with 20+ database tables",
-          repo: "text-to-sql",
+          repo: "",
+          preview:""
         },
         {
           title: "Local RAG System",
           description:
             "Retrieval Augmented Generation using Ollama and TimescaleDB for efficient data retrieval and generation",
-          repo: "local-rag-timescale",
+          repo: "mokshchadha/local_rag",
         },
         {
           title: "Invoice OCR with GenAI",
           description:
             "Intelligent invoice processing and data extraction using Generative AI",
-          repo: "invoice-ocr-genai",
+          repo: "",
+          preview:""
         },
         {
           title: "Video Summarizer",
@@ -38,7 +40,7 @@ const Portfolio = () => {
           title: "Deterministic GenAI Output",
           description:
             "Framework for generating consistent outputs from GenAI models using LangChain agents",
-          repo: "deterministic-genai",
+          preview: "https://medium.com/@chadhamoksh/getting-structured-output-from-llms-using-react-agents-c84e9a777fbf",
         },
       ],
     },
