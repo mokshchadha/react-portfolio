@@ -10,22 +10,23 @@ const Portfolio = () => {
       linkColor: "text-emerald-700 hover:text-emerald-900",
       items: [
         {
-          title: "Text to SQL Generator",
-          description:
-            "Natural language to SQL query converter working with 20+ database tables",
-          repo: "",
-          preview:""
-        },
-        {
           title: "Local RAG System",
           description:
             "Retrieval Augmented Generation using Ollama and TimescaleDB for efficient data retrieval and generation",
           repo: "mokshchadha/local_rag",
+          preview: "https://medium.com/@chadhamoksh/build-a-fully-local-rag-app-with-postgresql-llama-3-2-and-ollama-b18cec13382d",
         },
         {
           title: "Invoice OCR with GenAI",
           description:
             "Intelligent invoice processing and data extraction using Generative AI",
+          repo: "mokshchadha/invoice_ocr",  
+          preview:"https://documentanalysis.streamlit.app/"
+        },
+        {
+          title: "Text to SQL Generator",
+          description:
+            "Natural language to SQL query converter working with 20+ database tables",
           repo: "",
           preview:""
         },
