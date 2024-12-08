@@ -167,23 +167,23 @@ const Portfolio = () => {
         {
           title: "Go banks",
           description: "Creating a backend api with golang, sqlx, mockito",
-          repo: "dart-file-db",
+          repo: "mokshchadha/go_banks",
         },
         {
           title: "Go Simd",
           description: "Writing database UDF using golang",
-          repo: "dart-file-db",
+          repo: "mokshchadha/go_simd",
         },
         {
           title: "Cassandra Client",
           description: "Database client implementation for Cassandra DB",
-          repo: "dart-cassandra-client",
+          repo: "mokshchadha/cassandra_client",
         },
         {
           title: "File DB",
           description:
             "File-based database with async writing and indexing capabilities",
-          repo: "dart-file-db",
+          repo: "/mokshchadha/filedb",
         },
       ],
     },
