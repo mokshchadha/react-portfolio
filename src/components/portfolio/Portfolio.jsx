@@ -103,14 +103,14 @@ const Portfolio = () => {
           title: "Google Docs Clone",
           description:
             "Real-time collaborative document editing with Flutter, Node.js, and Socket.io",
-          repo: "https://github.com/mokshchadha/docs-clone",
+          repo: "mokshchadha/docs-clone",
           preview:"https://www.linkedin.com/feed/update/urn:li:activity:6995037982961352704/"
         },
         {
           title: "Serverpod Projects",
           description:
             "Full-stack Flutter solutions with Postgres and JSON RPC",
-           repo:'https://github.com/mokshchadha/serverpod_demo'
+           repo:'mokshchadha/serverpod_demo'
         },
         {
           title: "Mobile Apps",
@@ -118,12 +118,12 @@ const Portfolio = () => {
             {
               title: "Expense Tracker",
               description: "Flutter app with Riverpod state management",
-              repo: "https://github.com/mokshchadha/expense-tracker",
+              repo: "mokshchadha/expense-tracker",
             },
             {
               title: "Grocery App",
               description: "MVVM architecture with Bloc state management",
-              repo: "https://github.com/mokshchadha/grocery_bloc",
+              repo: "mokshchadha/grocery_bloc",
             },
           ],
         },
