@@ -69,16 +69,14 @@
     font-weight: 200;
 }
 
-/* Media Queries */
 @media screen and (max-width: 1024px) {
     header {
-        height: 68vh;
+        height: 50vh;
     }
 }
 
 @media screen and (max-width: 600px) {
     header {
-        height: 68vh;
         padding-top: 7vh;
     }
 
@@ -87,10 +85,24 @@
     }
 
     .header__content {
-        flex-direction: column; /* Stack text and image in a column */
+        flex-direction: column;
     }
 
     .header__image {
-        margin-top: 1rem; /* Add spacing for image */
+        margin-top: 1rem;
+    }
+}
+
+/* For smaller screens with height less than 850px */
+@media screen and (max-width: 600px) and (max-height: 800px) {
+    header {
+        height: 68vh;
+    }
+}
+
+/* For screens with height greater than 850px */
+@media screen and (max-width: 600px) and (min-height: 800px) {
+    header {
+        height: 50vh;
     }
 }
