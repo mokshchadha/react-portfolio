@@ -319,7 +319,7 @@ const Portfolio = () => {
                                 )}
                                 {subItem.preview && (
                                   <a
-                                    href={`${item.preview}`}
+                                    href={`${subItem.preview}`}
                                     className={`${linkColor} transform transition-all duration-200 hover:scale-110`}
                                     target="_blank"
                                     rel="noreferrer"
