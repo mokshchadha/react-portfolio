@@ -94,7 +94,7 @@ const About = () => {
                  Source.one • 2019 - 2023
                 </p>
                 <p className="mt-1 text-sm  text-gray-600 mb-1">
-                  Joined as an intern, now currently working as an SDE 2.
+                  Joined as an intern, promoted to the level to  SDE 2.
                   Source.one focuses on driving the B2B of our country through
                   easy tech.
                 </p>
